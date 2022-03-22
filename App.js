@@ -18,6 +18,7 @@ import {
 } from 'react-native';
 
 import Billers from './src/screens/payment/bills/billers'
+import Airtime from './src/screens/payment/airtime/airtimetype'
 
 
 const App = () => {
@@ -30,7 +31,8 @@ const App = () => {
       // backgroundColor={"#fff"}
       />
       <SafeAreaView style={styles.bodySafeAreaView}>
-        <Billers />
+        {/* <Billers/> */}
+        <Airtime />
       </SafeAreaView>
     </>
   )

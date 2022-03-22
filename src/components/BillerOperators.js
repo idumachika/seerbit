@@ -3,6 +3,7 @@ import { Text, TouchableOpacity, View, StyleSheet, Image } from 'react-native';
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 // import { COLORS, PRIMARY_FONT } from '../assets/config';
 
+//Todo Animation
 const BillerOperators = ({ billers }) => (
     <TouchableOpacity activeOpacity={0.8} style={styles.billers}>
         <View>

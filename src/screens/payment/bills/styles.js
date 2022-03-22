@@ -24,6 +24,16 @@ const styles = StyleSheet.create({
         marginTop: 30,
 
     },
+    billersDetails: {
+        // flex: 1,
+        alignItems: 'flex-end',
+    },
+    billersDetailsText: {
+        color: '#548E4E',
+        fontSize: 12,
+        paddingTop: 10
+    },
+
     billersTitle: {
         fontSize: 12,
         // fontFamily: PRIMARY_FONT.bold,

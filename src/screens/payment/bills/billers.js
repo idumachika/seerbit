@@ -48,6 +48,25 @@ const Billers = () => {
                 </View>
 
             </View>
+            <View style={[styles.billersContainer]}>
+                <Text style={styles.billersTitle}>Electricity</Text>
+                <View style={styles.billersOperator}>
+                    {billersOperators.map((billers) => (
+                        <BillersOperator billers={billers} key={billers.title} />
+                    ))}
+                </View>
+                <View style={styles.billersDetails}><Text style={styles.billersDetailsText}>view all</Text></View>
+
+            </View>
+            <View style={styles.billersContainer}>
+                <Text style={styles.billersTitle}>TV Bills</Text>
+                <View style={styles.billersOperator}>
+                    {billersOperators.map((billers) => (
+                        <BillersOperator billers={billers} key={billers.title} />
+                    ))}
+                </View>
+
+            </View>
 
         </View>
 
